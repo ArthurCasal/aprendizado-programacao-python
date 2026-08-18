@@ -1,6 +1,6 @@
 matricula = input('Ola, voce esta matriculado na escola, PYTHON GUIDE? [S] [N] ')
 ras = ['552','1111','0012']
-alunos = ['Arthur','Nabola','Jennifer']
+alunos = ['Arthur','Lucas','Jennifer']
 if matricula == 'S':
     nome = input('Qual o seu nome? ')
     ra = input('Qual o seu registro de aluno?(RA): ')
