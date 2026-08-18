@@ -1,4 +1,4 @@
-matricula = input('Ola, voce esta matriculado na escola: GPT PYTHON GUIDE? [S] [N] ')
+matricula = input('Ola, voce esta matriculado na escola, PYTHON GUIDE? [S] [N] ')
 ras = ['552','1111','0012']
 alunos = ['Arthur','Nabola','Jennifer']
 if matricula == 'S':
