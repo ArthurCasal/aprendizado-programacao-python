@@ -21,6 +21,10 @@ Media:      {media:>7.2f}
 ==================================""")
     else:
         print('Voce nao esta na lista de alunos, tente novamente')
-else:
+elif matricula == 'N':
     print('Okay, tenha um bom dia')
+elif not matricula:
+    print('Digite corretamente')
+else:
+    print('Digite apenas S ou N.')
 
