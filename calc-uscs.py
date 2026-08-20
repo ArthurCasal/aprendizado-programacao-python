@@ -56,8 +56,18 @@ Nota AI:     {ai:.2f}
 Media N2:    {(ai + ((nota_af1 + nota_af2 + nota_af3 + nota_af4) / 4))/2:.2f}
 Media final: {media:.2f}
 ===============================  """)
-elif not afs:
-    print('Voce nao digitou corretamente as AFS')
+elif afs == 0:
+    media = (n1 + ai) / 2
+    print(f"""===============================
+    {'Boletim':^20}
+        
+Nota N1:     {n1:.2f}
+Nota AI:     {ai:.2f}
+Media final: {media:.2f}
+===============================  """)
+elif afs > 4:
+    print('Voce digitou uma AF a mais, tente novamente')
+
 else:
     print('Voce nao digitou corretamente as AFS')
 
