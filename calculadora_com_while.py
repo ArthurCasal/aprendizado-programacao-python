@@ -21,7 +21,7 @@ while True:
             print(f'A soma entre {num1} e {num2} é: {resultadoA:.2f}')    
         elif operaçao == "-":
             resultadoA = num1_float - num2_float
-            print(f'A subtrção entre {num1} e {num2} é: {resultadoA:.2f}')          
+            print(f'A subtração entre {num1} e {num2} é: {resultadoA:.2f}')          
         elif operaçao == "x":
             resultadoA = num1_float * num2_float
             print(f"A multiplicação entre {num1} e {num2} é: {resultadoA:.2f}")
@@ -30,7 +30,7 @@ while True:
                 resultadoA = num1_float / num2_float
                 print(f"A divisão entre {num1} e {num2} é: {resultadoA:.2f}")
             else:
-                print("Não pode divisão com 0")
+                print("Não é possível dividir por zero.")
     else:
         print('Escolha uma operação valida')
     while True:
@@ -41,6 +41,6 @@ while True:
         elif escolha.upper() == 'N':
             break
         else:
-            print('Digite correto')
+            print('Digite uma opcão correta')
     if escolha.upper() == 'N':
         break
